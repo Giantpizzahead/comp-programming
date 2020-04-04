@@ -1,0 +1,33 @@
+USACO January 2020 Platinum Log
+Time limit - 3.5 hours
+Start time - 4:10 PM, 2/15/20
+
+Final score - 690/1000
+Distribution - 15/15, 6/12, 8/14
+
+Well, this was... interesting. #3 was still really weird. Anyways, I did pretty good on time
+management there. #3 really messed me up though. Then again, both 2 and 3 were hard...
+The time I spent on each of the problems was about right (<30 minutes on the easy one, with
+about 50/50 on the other 2). I guess I've got some more studying to do.
+Hey, on the plus side, I would've tied for top 6 in the actual contest, which is well above my
+goal. Yay! :)
+
+3:30 - Start of contest
+3:25 - Strategy done for #1
+3:10 - Initial submit for #1
+3:09 - Finished #1 (First try!)
+3:09 - Started #2
+2:49 - Skip #2 for now
+2:35 - Strategy done for #3 (hard implementation incoming!)
+1:30 - Initial submit for #3 (very messy code)
+1:19 - Got 8/14 cases on #3! (still messy code, don't know what's wrong)
+1:10 - Settling for 8/14 on #3 for now because I still have no idea what is wrong
+1:06 - Some kind of strategy done for #2, going to try and implement it
+0:32 - Initial submit for #2 (clean code! :D), got 4/12 cases
+0:18 - Resorting to coding another special case for N <= 1000 to get 6/12 cases for #2
+0:09 - First submit with special case coded
+0:06 - Grading server seems to be bugged, so if it doesn't submit in time, I'll extend the contest a bit.
+0:03 - Got 6/12 cases on #2
+0:01 - Attempting to fix #3
+0:00 - Didn't fix #3, contest is over!
+-0:35 - Still can't fix #3, wasn't a bug with my messy code. I'm just gonna take the 8/14.

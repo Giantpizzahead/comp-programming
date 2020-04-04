@@ -1,0 +1,40 @@
+IOI 2018 Day 2 (Mock Contest)
+Start time - 4:12 PM
+Time limit - 5 hours
+
+Final score - 123/300
+Distribution - 53/100, 51/100, 19/100
+
+So... this one didn't go that well. In fact, it went even worse than Day 1's contest. I didn't manage
+to AC any of the tasks, which is kinda sad. But oh well. I knew that IOI 2018 was going to be a wakeup
+call for me, and I was right. Hey, now I got some problems to practice! :)
+#1 was hard-ish to implement, but I couldn't figure out how to reduce the number of switches used
+past the filled tree. #2 was really interesting, and I ended up with some overly complex code to
+solve the tree version of it. I still don't know what to do with a general graph though. Finally,
+#3 looked easy, but was actually reallllly hard. I was originally going for ST 1-4, but I think I
+left myself too little time for the problem in order to make that happen. My time spending on #1 was
+probably too long (42 minutes after 53/100!), so that's something I can work on next time.
+This was a fun experience; I'm looking forward to taking more hard contests like these! :D
+
+Side note: Many things probably impacted my abilities during this contest; for one, my hands were
+freezing at the time. Another thing is the coronavirus; HHS closed the day before this contest, so
+that probably distracted me a bit. Anyways, conditions during this one weren't optimal, so that might
+explain a bit of the issues I had. Still, there are quite a few things I can improve on. So, let's
+get working!
+
+5:00 - Start of contest
+5:00 - Started #1
+4:38 - Strategy done for #1 (Challenging implementation incoming!)
+4:10 - Initial submit for #1... using my new test runner system! :D, got ST 1-3 and some REs
+3:58 - Got 53/100 on #1 (half credit on ST 5/6, no credit for ST 4)
+3:16 - Moving on from #1 for now, started #2
+2:50 - Strategy found for ST 1-4 for #2
+2:40 - Moving on from #2 for now, started #3
+2:12 - Strategy found for ST 1-3 for #3, back to #2
+1:52 - Settling for ST 1-4 on #2
+1:15 - Initial submit for #2 targeting ST 1-4, got TLEs on ST 4 (18/100)
+0:44 - Got ST 1-4 for #2 (51/100)
+0:44 - Back to #3
+0:28 - Strategy kinda done for ST 3-4 of #3?
+0:04 - Gave up on ST 3-4, too little time; initial submit for ST 1-2, got those STs (19/100)
+0:00 - End of contest

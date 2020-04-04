@@ -1,0 +1,22 @@
+IOI 2009 Day 0 (Mastery contest)
+
+Time limit - 1 hour
+Start time - 6:40 PM
+
+Final score - 300/300 (Perfect!)
+Score distribution - 100, 100, 100
+
+Looks like I really took this contest to heart. Now if we come across problems like these
+again, I'm confident that we'll be able to solve them! :D
+
+1:00 - Start of contest, started #1
+1:00 - Strategy done for #1
+0:58 - Initial submit for #1, got AC
+0:57 - Started #2
+0:55 - Strategy done for #2
+0:46 - Initial submit for #2, got WA...?
+0:45 - Resubmit after fixing a small bug, got AC!
+0:45 - Started #3
+0:40 - Strategy done for #3
+0:34 - Initial submit for #3, got AC!
+0:34 - All problems have been ACed, 0:34 left to spare!

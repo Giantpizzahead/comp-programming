@@ -1,0 +1,28 @@
+Time limit - 3 hours, 30 minutes
+Note - This is a redo of the platinum contest that I actually took (score was 571). To balance this a bit, time limit is reduced by 30 minutes.
+
+3:30 - Started #1
+3:22? - Strategy finished for #1
+3:14 - Initial submit for #1
+3:00 - Finished #1
+
+3:00 - Started #2
+2:54 - Strategy finished for #2
+2:36 - Initial submit for #2
+2:35 - Finished #2
+
+2:29 - Started #3
+2:17 - Start room walkaround
+2:06 - Back from room walkaround... with a great idea!
+1:59 - Strategy finished for #3; begin naive implementation O(N^5)
+1:39 - Initial submit for #3
+1:27 - Naive implementation finished, got 10 cases!!!! :O
+1:25 - Room walkaround, 2nd edition
+1:13 - Start better implementation O(N^3)
+0:56 - First submit attempt for better implementation (still only 10)
+0:45 - All cases correct! But with over 500 MB memory, so trying to get it down to 256
+0:40 - Finished #3! (185 MB memory max, all under 2 seconds... we did it! :D)
+0:27 - Explanation for #3 done... so we're done!
+
+Time left - 0:27
+Score - 1000 :D

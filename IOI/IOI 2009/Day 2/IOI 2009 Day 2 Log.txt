@@ -1,0 +1,50 @@
+IOI 2009 Day 2 (Mock Contest)
+Time limit - 5 hours
+Start time - 3:55 PM, 2/17/20
+
+Final score - 385/400
+Distribution - 100/100, 100/100, 85/100, 100/100
+
+This was a fun contest! #1 was trivial, #2 was less trivial, #3 was weird, and #4 was
+hard... but not too hard. I really enjoyed this mock test, and I really feel like it
+helped me get better at this. I full scored everything but #3; I suspect it's due to
+a Java time limit issue, but I couldn't get it to work in C++ either sooooo who knows.
+I don't really know how to optimize memory in C++, so that might be why. I'm looking
+forward to the next mock! ;)
+
+5:00 - Start of contest
+4:58 - Strategy done for #1
+4:53 - Initial submit for #1
+4:53 - Finished #1 (100/100, first try!)
+4:53 - Started #2
+4:45 - Strategy done for #2
+4:26 - Initial submit for #2 (linearithmic), got some WAs?
+4:19 - Finished #2 (100/100, third try [bug with impossible cases])
+4:19 - Started #3
+4:00 - Subtask 1 strategy found for #3
+3:50 - Skipped #3 for now, started #4
+3:09 - Long strategy somewhat done for #4, decided to try implementing
+2:34 - Initial submit for #4 (currently doesn't support same day fairs), got 32/100
+2:26 - #4 submit for all subtasks, got WAs (40/100)
+2:16 - Got 60/100 on #4 (subtask 1 ACed)
+2:05 - Finished #4! (100/100, who-knows-what try :D), there were 2 small but major bugs
+in the code, so yay
+2:01 - Back to #3... Let's do this.
+1:45 - Subtask 2 strategy found for #3
+1:43 - Strategy done for #3!
+1:14 - Initial submit for #3, kinda a joke submit to see if the grader allows offline
+queries ;) (got 0/100 so it probably doesn't allow offline lul)
+1:05 - Actual initial submit for #3, got 31/100 & a bunch of crashes?
+0:57 - Fixed the crashes (issue with 0-sized ArrayLists), got 85/100! Almost there...!
+0:29 - I've been submitting slightly modified versions of the first program to try to
+get 100, but it seems like we have another time limit issue. That's ok though. I have
+experience squeezing past C++ time limits... :)
+0:21 - 90/100
+0:16 - Drastic step; I'm gonna reimplement this in C++. Hopefully I can finish in time!
+0:00 - Well that didn't work. Anyways, I ended up getting 85/100 on the last submission.
+I'm gonna continue coding this C++ solution though; I wanna confirm that it would pass.
+-0:14 - Initial submit for #3 using C++ program, got 60/100 with MLE
+-0:37 - Ok, C++ isn't working either (70/100 MLE). I'm gonna try to use the set merging
+technique instead of the 500N array thing I'm doing right now for L->H queries.
+-0:55 - That got 85/100 as well. Anyways, I think that's enough for this contest. I did
+quite well; in fact, if I were in IOI 2009, I would've gotten a gold medal! :D

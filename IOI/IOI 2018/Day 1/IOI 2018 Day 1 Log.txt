@@ -1,0 +1,45 @@
+IOI 2018 Day 1 (Mock Contest)
+Start time - 2:20 PM, 2/29/20
+Time limit - 5 hours
+
+Final score - 186/300
+Distribution - 100/100, 37/100, 49/100
+
+Wow. This was a hard one. IOI 2009 was a joke compared to this. The first problem was easy(ish), but the other 2 were crazy. #2 had so many hints, but I just couldn't find the right way to solve it. I ended up getting subtasks 1-3 though. Same thing with #3; I felt so close to the solution, but I just couldn't get it. Again, I got the subtasks that I could solve (ST 1-3), so I'm happy with my decision there. There were some technical difficulties due to Yandex only allowing C++ submissions, but the contest was still really fun overall!
+I can already tell this contest mastery is going to be super wholesome... Ohhh yeah. I can't wait!
+
+5:00 - Start of contest
+5:00 - Started #1
+4:30 - Skipped #1 for now, started #2
+4:14 - Skipped #2 for now, started #3... Wow. This contest is hard.
+3:54 - Solution found for Subtasks 1-3 for #3... should I go for ST 4?
+3:45 - Strategy done for #3, going for Subtasks 1-3
+3:02 - Initial submit for #3...
+Uh oh. Yandex only allows C++ submissions. Oh no... This is gonna be a bit of an issue.
+Ok, hold on a sec. I'm gonna go and try using the judge that I made for IOI 2019. Pausing the contest timer for now.
+
+So we have issues. My judge doesn't work for IOI 2018 because the formats are completely different (why IOI)... soooooo we're gonna have to write our code in C++. Yay!
+I probably should've checked this before I started the contest, but Yandex worked for IOI 2009, so I assumed it would also work for 2018. Oh well. I guess we'll have to compromise...
+To make up for this issue, I'm gonna reset the timer to 3:45 (before I made the Java code for #3). Alright, let's do this!
+
+3:45 - Timer reset due to fun issues
+
+Ok, forget that. I can't write C++ code that's this complex just yet. We're switching back to running random cases and checking the results manually.
+
+3:36 - Initial submit for #3
+3:27 - Passed all my manual tests for ST 3, so I'm giving it AC for ST 3. (34/100)
+3:26 - Back to #1
+3:25 - Strategy done for #1 (I misread the problem before cause I'm dumb)
+3:12 - Initial submit for #1, got AC (100/100)! :D
+3:09 - Back to #2
+2:26 - Strategy for Subtasks 1, 2, and 4 done, but I can't find the trick for the others.
+2:06 - Gave up on #2 for now, back to #3
+1:35 - Executive decision to give up on ST 4 for #3, and just implement ST 1 and 2
+1:28 - Submit for #3 targeting ST 1-3, got AC on those subtasks! (49/100)
+1:22 - Back to #2
+1:06 - Strategy found for #2, Subtasks 1-4
+1:04 - Settling for Subtasks 1-4 for #2
+0:44 - Initial submit for #2 targeting ST 1-3, got AC on those subtasks (31/100)
+0:36 - Implementing ST 4
+0:25 - Submit for #4 targeting ST 4, got AC on that subtask (37/100)
+0:20 - I'm gonna end the contest here, as I don't see myself getting any more points on the other subtasks. Wow. That was hard.

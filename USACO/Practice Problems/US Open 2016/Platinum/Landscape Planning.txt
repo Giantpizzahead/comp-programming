@@ -1,0 +1,37 @@
+I have an idea!
+
+The method I'm thinking of is kinda like the method for the frog rock jumping problem in AlphaStar.
+
+Here's my rough plan:
+
+Try binary searching for the maximum allowed cost when transporting dirt from one flowerbed to another.
+
+Choose a max cost (max distance between two flowerbeds for transport), and calculate the cost required with that max cost.
+
+To do that, simulate the transports as they happen. First, you'd need two stacks: One with flowerbeds that need more dirt to meet the target, and one with flowerbeds that have too much dirt (you would need to keep track of how much under or over it is, as well as the index of the flowerbed).
+
+Then, iterate through the flowerbeds.
+
+If the flowerbed needs more dirt, peek at the top over target stack element to see if it's close enough (less than max cost). If it is, transport all the dirt from the top stack element (pop it) to the current flowerbed. Make sure to add the cost of this operation to the simulated cost. If the stack element still has more dirt left to give, push it back in the stack with the amount remaining. Else if the flowerbed still needs more dirt, peek at the next stack element, and repeat. Once the flowerbed has the target amount of dirt or the over stack is empty, stop.
+
+If the flowerbed has too much dirt, peek at the top under target stack element to see if it's close enough... and copy everything from above (same logic applies here).
+
+If the flowerbed has not been filled / used completely, add the flowerbed to the appropriate stack.
+
+At the end of the simulation, pop every unused element off the two stacks, and simulate the appropriate add and remove operations (add the cost to the total cost).
+
+That's the plan for simulating a max cost. Here's how you choose the max costs...
+
+Start by calculating the max cost for the values N/2 and N/2+1. If N/2's cost is lower, start binary searching with bounds (0, N/2), comparing the new result to the previous lowest cost to determine which direction to search in. Else if N/2+1's cost is lower, start binary searching with bounds (N/2+1, N). The new value to test would be (lowerBound + upperBound) / 2. When reducing the bounds, make sure you set the bound to the exact value, not +1 or -1.
+
+If the two values being compared are the same, calculate the max cost for the value below the first one that changes the total cost result, and the value above the second one that changes the total cost result. If those are both the same, then continue following that pattern. If you reach the end, your answer is the tied cost value.
+
+Once the bounds are one apart, stop the binary searching. Test the value that hasn't been tested, and choose the lowest cost as your answer.
+
+Then you're (hopefully) done!
+
+Let's see if this works... tomorrow. DUN DUN DUNNNNNNNNNNNNN
+
+Actually, one more addition. In order to prevent the same cost stuff from happening, you'd need to track the minimum lower cost and minimum upper cost changes that would change the result of the total landscaping cost. Then, you would take that into account when choosing a middle value to check for.
+
+Wait this doesn't work oh no :(

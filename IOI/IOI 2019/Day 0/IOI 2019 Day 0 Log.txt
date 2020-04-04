@@ -1,0 +1,39 @@
+IOI 2019 Day 0 (Mock Contest)
+Start time - 6:55 PM, 2/18/20
+Time limit - 2 hours
+
+Final score - 323/400...? (Unofficial)
+Distribution - 100/100, 24/100 (st 1 to 3), 99/100, 100/100
+
+This wasn't organized at all. I'm not used to the "function implementation" type that they used this
+year, so it took me a while to get going / test my code. The time limit was wrong too. Basically
+everything messed up. It's ok though, since this was just a practice mock contest. Hey, it was still
+pretty fun!
+
+Note: There's no official grader for this one, so I just ran random cases from the tests. If it passed
+all of them, I counted that as AC.
+
+2:00 - Start of contest
+1:56 - Strategy done for #1
+1:47 - Initial submit for #1, got almost AC?
+1:35 - Ok, now we got full AC (I think). Not having a grader is really annoying... :(
+1:34 - Started #2
+1:24 - Skipped #2 for now, started #3
+1:12 - Strategy done for #3
+0:52 - Initial 'submit' for #3, got not good
+0:43 - Submit for #3 after fixing bugs, got ~75/100
+0:40 - On to #4!
+0:26 - Strategy done for #4
+0:00 - End of contest... soooo I don't know what happened. Everything was messy because I didn't have
+actual graders to check my work (they closed the practice site). Also, the practice tasks were there
+from July to August. So, I don't think the time limit's right, and I have no way to check my answers
+for correctness. Yayyyyyyyyyyyyyyy
+-0:13 - Got ~99/100 for #3 after making the program prioritize higher x mod 20 shirts first, even found
+better solutions then the official one! :D
+-0:13 - Back to #4
+-0:51 - Initial 'submit' for #4, got AC (passed all my randomly chosen TCs)! ;), had a lot of bugs tho
+-1:00 - Back to #2
+-1:20 - Settling for a solution that can solve subtasks 1, 2, 3, and 5 of #2
+-1:32 - Initial submit for #2, only for subtasks 2/3, got AC for those subtasks! :D
+-1:50 - First submit for #2 for subtasks 1/5, got ST 1 but not ST 4
+-2:00 - Ok, we'll stop here for this one (4 hours). Hopefully the next mock is more... organized.

@@ -1,0 +1,78 @@
+Do this problem first!
+http://usaco.org/index.php?page=viewproblem2&cpid=899
+It's a practice graph problem. Try solving it using the skills you learned in AlphaStar! :)
+DONE! :)
+
+9 | -2 0  -1 -7 -6 -7
+8 | -1 x  x  -6 -5 -6
+7 | 0  x  x  -5 -4 -5
+3 | x  x  x  -1 0  -1
+2 | x  x  x  0  x  0
+
+allowedChanges = 2
+[7, 9, 8, 2, 3, 2] Changes: 5
+{(0, 7), (1, 9), (2, 8), (3, 2), (4, 3), (5, 2)}
+allowedCost = -1
+[7, 9, 9, 2, 3, 2] Changes: 4
+{(0, 7), (1, 9), (3, 2), (4, 3), (5, 2)}
+
+9 | -2 -1 0 -7 -6 -7
+8 | -1 x  0 -6 -5 -6
+7 | 0  x  0 -5 -4 -5
+3 | x  x  0 -1 0  -1
+2 | x  x  0 0  x  0
+
+[7, 9, 9, 3, 3, 2] Changes: 3
+{(0, 7), (1, 9), (3, 3), (5, 2)}
+
+9 | -2 -1 0 -13 0 -7
+8 | -1 x  0 -11 0 -6
+7 | 0  x  0 -9  0 -5
+3 | x  x  0 -1  0 -1
+2 | x  x  0 x   0 0
+
+[7, 9, 9, 3, 3, 3] Changes: 2!
+{(0, 7), (1, 9), (3, 3)}
+
+9 | -2 -1 0 -20 0 0
+8 | -1 x  0 -17 0 0
+7 | 0  x  0 -14 0 0
+3 | x  x  0 -2  0 0
+2 | x  x  0 x   0 0
+
+Do one traversal, sum up abs value of costs, and you're done!
+(This is the correct answer)
+
+if allowedChanges = 1, bestCost = 5... let's keep going
+allowedCost = -2
+[7, 9, 9, 3, 3, 3] Changes: 2
+[9, 9, 9, 3, 3, 3] Changes: 1!
+{(0, 9), (3, 3)}
+
+9 | -3 0 0 -20 0 0
+8 | x 0 0 -17 0 0
+7 | x  0 0 -14 0 0
+3 | x  0 0 -2  0 0
+2 | x  0 0 x   0 0
+
+if allowedChanges = 0...
+[9, 9, 9, 3, 3, 3] Changes: 1!
+{(0, 9), (3, 3)}
+
+Eventually...
+[9, 9, 9, 9, 9, 9] Changes: 0!
+{(0, 9)}
+
+9 | -23 0 0 0 0 0
+8 | x   0 0 0 0 0
+7 | x   0 0 0 0 0
+3 | x   0 0 0 0 0
+2 | x   0 0 0 0 0
+
+(Make sure to break out of this, it's an infinite loop)
+
+Transfer x's to new column if there are any
+Set old column to all zeroes to make it easier to debug
+
+Alternative method is to keep track of best cost move, and do that one move
+after one whole iteration, check if changes left is less than allowed, then repeat

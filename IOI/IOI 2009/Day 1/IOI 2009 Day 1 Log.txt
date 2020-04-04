@@ -1,0 +1,36 @@
+IOI 2009 Day 1 (Mock Contest)
+Time Limit - 5 hours
+Start time - 4:12 PM, 2/8/20
+
+Final score: 330/400 (Pretty good! :D)
+Score distribution: 30, 100, 100, 100
+
+Wow, this was an interesting first dive into IOI contests. I spent over 3 hours on the 1st problem, and I ACed the 3 other problems in about an hour! I think I did pretty good for a first try though. It seems like Archery was extremely hard compared to the other problems, so I'm fine with my partial solution. Let's hope next contest goes just as well! ;)
+
+5:00 - Started problem #1
+4:41 - O(N^3) for #1 found, skipped to problem #2 for now
+4:32 - Strategy done for #2
+4:19 - Initial submit for #2 (83/100)
+4:00 - Started problem #3, will come back to #2 (seems like an issue with the set time limit for Java)
+3:56 - Strategy done for #3
+3:48 - Initial submit for #3
+3:48 - Finished #3, first try! (100/100) :D
+3:47 - Started #4
+3:39 - Strategy done for #4
+3:24 - Initial submit for #4
+3:23 - Finished #4, first try! (100/100) :D
+3:23 - Back to #2
+3:02 - Finished #2 (100/100) ;)
+3:00 - Back to #1
+2:47 - Decided to make an archery round simulator thing
+2:42 - Done with simulator
+1:50 - Decided to implement the O(N^3) solution as a baseline
+1:42 - Initial submit for #1, got O(N^3) (20/100)
+1:14 - Tried to implement O(N^2), didn't work, but realized interesting property about the problem...
+0:58 - Interesting property did nothing. Yay! I'm now trying a trick to get average complexity down. Current score for this problem is now 21/100, cause I got an edge case :DDDDDDD
+0:49 - Submitted attempt to get average complexity down (stop early if nothing will happen), got 23/100
+0:24 - I have no clue where to go from here for #1, so this is probably where I'm going to end this contest.
+0:19 - Final submit, with a small optimization to try and get more cases, got WA...???
+0:12 - Optimization fixed, submitted again, got 30/100... and still some WA??????????
+0:00 - End of contest!
+-0:11 - Tried fixing the optimization again, got 32/100, but still a WA? Oh well. I'm gonna leave the contest here.

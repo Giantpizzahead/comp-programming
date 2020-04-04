@@ -1,0 +1,25 @@
+Since the US Open 2015 mock I took was too easy, I'm going to use this as a harder mock
+contest. The time limit isn't exactly 5 hours, but oh well.
+I'm only going to do the first 2 problems, as I have seen / implemented #3 before, and
+also cause I'm starting this contest a bit late.
+
+USACO February 2015 Gold (Mock)
+
+Start time - 3/28/20, 7:20 PM
+Time limit - 2.5 hours (2 problems only, also cause #3 seems to be the hardest)
+
+Final score - 666/666
+Distribution - 15/15, 15/15
+
+Alright, I feel prepared for the US Open now. Here I come... tomorrow, actually. Still,
+this was good training. I'm gonna go relax now. :)
+
+2:30 - Start of contest
+2:30 - Started #1
+2:17 - Strategy done for #1
+2:03 - Initial submit for #1, got AC! (15/15)
+2:00 - Started #2
+1:40 - Strategy done for #2
+0:56 - Initial submit for #2, got almost AC (14/15)
+0:52 - Finished #2! (15/15)
+0:51 - End of contest (solved all problems)
