@@ -1,3 +1,5 @@
+# This code can be run as python2 or python3 in most systems.
+#
 # This is a small program that runs two processes, connecting the stdin of each
 # one to the stdout of the other.
 # It doesn't perform a lot of checking, so many errors may
@@ -7,14 +9,22 @@
 # Run this as:
 # python interactive_runner.py <cmd_line_judge> -- <cmd_line_solution>
 #
-# For example:
-# python interactive_runner.py python testing_tool.py 0 -- ./my_binary
-#
-# This will run the first test set of a python judge called "testing_tool.py"
-# that receives the test set number (starting from 0) via command line parameter
-# with a solution compiled into a binary called "my_binary".
-#
-# This code can also be run as python3.
+# For example, if you have a testing_tool.py in python3 (that takes a single
+# integer as a command line parameter) to use as judge -- like one
+# downloaded from a problem statement -- and you would run your solution
+# in a standalone using one of the following:
+#   1. python3 my_solution.py
+#   2. ./my_solution
+#   3. java Solution
+#   4. my_solution.exe
+# Then you could run the judge and solution together, using this, as:
+#   1. python interactive_runner.py python3 testing_tool.py 0 -- python3 my_solution.py
+#   2. python interactive_runner.py python3 testing_tool.py 0 -- ./my_solution
+#   3. python interactive_runner.py python3 testing_tool.py 0 -- java solution
+#   4. python interactive_runner.py python3 testing_tool.py 0 -- my_solution.exe
+# Notice that the solution in cases 2, 3 and 4 would usually have a
+# compilation step before running, which you should run in your usual way
+# before using this tool.
 #
 # This is only intended as a convenient tool to help contestants test solutions
 # locally. In particular, it is not identical to the implementation on our
@@ -59,21 +69,15 @@ class SubprocessThread(threading.Thread):
     new_line = True
     while True:
       chunk = stream.readline(1024)
-
       if not chunk:
         return
-
       chunk = chunk.decode("UTF-8")
-
       if new_line and self.stderr_prefix:
         chunk = self.stderr_prefix + chunk
         new_line = False
-
       sys.stderr.write(chunk)
-
       if chunk.endswith("\n"):
         new_line = True
-
       sys.stderr.flush()
 
 
@@ -101,5 +105,18 @@ if t_judge.error_message:
   print("Judge error message:", t_judge.error_message)
 
 print("Solution return code:", t_sol.return_code)
-if t_judge.error_message:
+if t_sol.error_message:
   print("Solution error message:", t_sol.error_message)
+
+if t_sol.return_code:
+  print("A solution finishing with exit code other than 0 (without exceeding "
+        "time or memory limits) would be interpreted as a Runtime Error "
+        "in the system.")
+elif t_judge.return_code:
+  print("A solution finishing with exit code 0 (without exceeding time or "
+        "memory limits) and a judge finishing with exit code other than 0 "
+        "would be interpreted as a Wrong Answer in the system.")
+else:
+  print("A solution and judge both finishing with exit code 0 (without "
+        "exceeding time or memory limits) would be interpreted as Correct "
+        "in the system.")
