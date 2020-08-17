@@ -1,0 +1,18 @@
+(Practice)
+
+0:00 - Start of contest
+0:00 - Started A
+0:10 - Initial submit for A, got AC!
+0:12 - Started B
+0:21 - Initial submit for B, got AC!
+0:22 - Started C
+1:20 - Snack break
+1:46 - Skipped C, started D
+2:03 - Very sketchy greedy-like strategy done for D
+2:39 - Initial submit for D, got AC?!?!??!?!?!??!?!?!!!?!??!?
+2:40 - Taking a break bc HOW DID I GET D?????????????? WHAAAAAAAAAAAAAAAAT
+--- The next day... ---
+2:41 - Back to C
+3:05 - Looked at the scoreboard to see how hard C was, ~600 solved it...???
+3:10 - Got a hint for C... ITS A FLOW PROBLEM?????????????? ...and 600 solved it...?
+3:33 - Looked at solution for C

@@ -1,0 +1,4 @@
+Don't rush, make sure you know what you're going to code before you start coding it
+Test your code in small chunks
+If segfault, try setting stack size to unlimited (ulimit -s unlimited)
+Check edge cases (N = 1)

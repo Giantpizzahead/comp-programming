@@ -1,0 +1,15 @@
+(Practice)
+
+0:00 - Start of contest
+0:00 - Started A
+0:05 - Initial submit for A, got AC!
+0:06 - Started B
+0:12 - Initial submit for B, got AC!
+0:13 - Started C
+0:27 - Initial submit for C, got AC!
+0:28 - Started D
+1:34 - Gave up sort of, looked at scoreboard to see how many got it (~50 out of 7000)
+1:38 - Quick scroll through the solution (all I got was that there is a greedy solution)
+2:03 - Got a bigger hint from solution (it involves recursion & you should try every single node as root somehow)
+2:08 - Break time (Paused timer here until break was done)
+2:53 - Initial submit for D, got AC!!!!!!!

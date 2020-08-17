@@ -1,0 +1,26 @@
+0:00 - Start of contest
+0:00 - Started A1
+0:31 - Validated A1
+0:35 - Submitted for A1
+0:36 - Started A2
+1:22 - Validated A2
+1:29 - Submitted for A2
+1:35 - Started A3 (after a short break)
+3:07 - Validated A3
+3:10 - Submitted for A3
+3:11 - Started B
+3:14 - Pretty confident solution for B (binary search), going to read C before lunch break
+3:18 - Lunch break! :D
+4:19 - Back from lunch, got strategy for B and a (somewhat) idea of C
+4:45 - Realized B is actually not that easy
+4:49 - Realized the previous realization was actually cause of a dumb bug (N instead of M...)
+4:51 - Validated B
+4:55 - Submitted for B
+4:56 - Started C
+6:36 - Failed validation for C
+7:04 - Decided to make a stress tester for C, cause why not? (i cant find the bug D;)
+7:08 - i am big dumb (i only counted pairs within the 2 groups i was connecting, not all the pairs that could reach each other DDDDDDD;;;;)
+7:10 - Validated C!
+7:23 - Failed to submit for C because C++ STACK SIZE ARGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH :(
+
+(It actually got WA after contest anyways... so rip C i guess, i'll try again later)
