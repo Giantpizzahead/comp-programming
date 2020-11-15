@@ -23,6 +23,7 @@ void solve(int tn) {
 
 int main() {
     ios::sync_with_stdio(false);
+    cin.tie(NULL);
     int T;
     fin >> T;
     for (int i = 1; i <= T; i++) solve(i);

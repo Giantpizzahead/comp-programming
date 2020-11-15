@@ -1,0 +1,32 @@
+FHC Mock #1, Round 2, 3 hours
+
+Facebook Hacker Cup 2019, Round 2
+https://www.facebook.com/codingcompetitions/hacker-cup/2019/round-2
+
+Final score = 43 points, 2:08:30 penalty time
+Place = 249th ;(((((((((
+
+If I had not screwed up B...
+Theoretical final score = 63 points, 2:48:00 penalty time
+Theoretical place = 113th DDDDDDDDDDDDD:
+
+Almost there... it's gonna be a close one for sure. I got 3 hours of sleep before taking this mock tho, so top 200 is still up in the air. Plus, we were so close to it! I believe in you... You can do it! :D
+
+--------------------------------------------------------------------------------
+
+3:00 - Start of contest
+3:00 - Started A
+2:44 - Submitted for A, got AC!
+2:43 - Started B
+2:21 - Submitted for B, got issues
+2:16 - Actual submit for B (fixed issues within 6 mins), but got WA :(
+2:10 - Moving on, cause in a real contest I wouldn't know I got WA
+2:10 - Started C
+1:08 - Submitted for C, got AC!
+1:07 - Started D
+0:00 - Contest over, almost got D...? I'll continue working on it
+-0:17 - Passed samples for D, submitted for D, got WA :(
+-0:22 - Trying to figure out why B got WA
+-0:39 - OMG ARE YOU SERIOUS RN OK IM DONE
+    (The bug for B was because the knapsack reconstruction could take multiple of the same item... and I literally just had to change one thing. ONE THING. ARGHHHHHHHHHHHHHHHHHHHHHHHHHHHH)
+-A long time afterwards - LMAO GUESS WHAT I FORGOT TO RESET ONE VARIABLE FOR D IN CONTEST AND NOW I GET AC WOWWWWWWWWWWWWWWWWWWWWWWWWWW this is rigged

@@ -18,11 +18,13 @@ int N;
 
 void solve(int tn) {
     fin >> N;
-    fout << "Case #" << tn << ": " << N << endl;
+    ll sumFrom1 = (ll) N * (N + 1) / 2;
+    fout << "Case #" << tn << ": " << sumFrom1 << endl;
 }
 
 int main() {
     ios::sync_with_stdio(false);
+    cin.tie(NULL);
     int T;
     fin >> T;
     for (int i = 1; i <= T; i++) solve(i);
