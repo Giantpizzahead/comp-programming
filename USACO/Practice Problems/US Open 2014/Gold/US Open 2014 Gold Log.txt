@@ -1,0 +1,46 @@
+US Open 2014 Gold (Mock Contest)
+Start time - 4:05 PM, 3/19/20
+Time limit - 5 hours
+
+Final score - 567/1000
+Distribution - 7/10, 8/10, 2/10
+
+Predicted score with extended time limit - 733/1000
+Predicted distribution - 10/10, 9/10, 3/10
+
+This went about as well as it could've. It was a challenge all right; the problems were
+all quite hard, and I had to be really careful when implementing some of them. However, the
+score above isn't exactly accurate; at this time, Java didn't get an extended time limit,
+causing some of the test cases in all the problems to TLE when they really shouldn't have.
+Either way, this was a fun contest, and I think it helps me realize the difficulty of the
+US Open. Alright then, time to keep studying! :D
+
+Note: Time was also a bit of an issue here. I spent too long on #1, leaving me too little
+time to work on #3. I got 6/10 (probably more with Java's extended time limit) on that one
+about 30 minutes after the contest ended. So, that's something I should keep in mind for
+next contest.
+
+5:00 - Start of contest
+5:00 - Started #1
+4:32 - Strategy done for #1
+3:08 - Initial submit for #1, got some right and some wrong and some TLE?????? (7/10)
+2:59 - Moved on from #1 for now, started #2
+2:42 - Strategy done for #2, moving on to #3 first
+2:34 - Back to #2
+1:45 - Initial submit for #2, got 3/10
+1:33 - Got 7/10!
+1:30 - 8/10...!
+1:28 - Back to #1
+1:09 - 7/10 restored on #1 (I accidentally lost it earlier)
+1:08 - Back to #3
+0:46 - Partial solution found for #3, decided to implement it due to time
+0:31 - Initial submit for #3, got 2/10 with naive method
+0:13 - First submit for #3 using a smarter method, still 2/10
+0:00 - End of contest... but I'm gonna keep trying #3. I'm close... I can feel it!
+-0:05 - 3/10 on #3
+-0:30 - Taking a look at the test data for #3
+-0:34 - Realized that I am dumb and somehow messed up the fact that Strings don't magically
+revert to their original state after being used in recursion
+-0:36 - Resubmit, got 6/10! Wow...........................................................
+-1:07 - Fixed the 'edge case' for #2, now at 9/10 (had to do with barn sim hitting (0, 0))
+-1:08 - Ok, I'm going to end it here.

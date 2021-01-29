@@ -1,0 +1,17 @@
+Remember:
+Don't rush. Take it slow. You have plenty of time.
+There are no easy problems on USACO contests, but there aren't any super hard ones either.
+"Become" the problem. Understand the problem fully before thinking about the solution.
+Use different points of view; try different approaches if one isn't working.
+Set an alarm for 2 hours into the contest, and take a break at halftime. Go downstairs, relax a bit.
+
+4:32 - Starting #1
+4:55 - Implementing #1
+5:53 - AC #1! On to #2
+6:11 - Seeing #3 for strategy
+6:26 - Break
+6:31 - Going for #2 first
+6:51 - Trying out greedy for #2
+7:15 - Partials on #2, on to #3
+7:30 - Implementing #3
+8:32 - Partials on #3

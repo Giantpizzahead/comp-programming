@@ -1,0 +1,83 @@
+1 2 3 4
+1 2 2 3
+
+Sort the barns by size
+
+Cows become available as the barns get bigger
+
+1 2 3 4
+
+dp[i][j] = i barns used, j cows available to match
+
+A barn can only house things smaller
+
+dp[0][0] = 1
+
+dp[i][j] =
+Don't house a cow
+dp[i-1][j-(# cows available in trans)]
+House a cow
+dp[i-1][j-(# cows available in trans)-1]
+
+Answer: dp[
+
+1 2 2 3
+
+dp[largest barn left out of the matching]
+
+If largest barn left out of matching -> Largest cow left out must be size > largest barn
+
+dp[largest cow left out][largest barn left out]
+
+dp[0][0] = 0
+dp[i][j] ->
+Leave next barn out
+dp[
+
+dp[curr barn][# cows <= barn size][largest barn left out][largest cow left out]
+
+Choose largest barn to be left out of the matching
+
+All barns above must be taken by cows, all cows left must be filled in barns below
+
+k = 
+All barns above must be taken by cows
+Go in decreasing order of barn size
+allUsed[i][j] = i barns used, j cows available to place into barns
+leftOut[i][j] = i barns used (
+
+8
+1 2 5 8 10 11 13 15
+2 6 11 11 12 14 15 19
+
+2-2
+8-6
+11-11
+13-11
+15-12
+
+In a perfect matching, largest barn left out < smallest cow left out
+
+If fix largest barn left and smallest cow left, then larger barns must all be filled, and smaller cows must all be used
+
+dp[i][j][k][l] = 
+i is current barn (ascending)
+j is current cow (ascending)
+k is last unfilled barn
+l is first unfilled cow
+
+dp[i][j][k][l]
+Skip this barn
+dp[i+1][j][i][l]
+Skip this cow
+dp[i][j+1][k][l or j if it is first]
+Place current cow into current barn
+dp[i+1][j+1][k][l]
+
+Answer: dp[N][N][all places where V[k] < V[l]]
+
+0 1 2 3 4
+1 2 2 3 9
+
+Barns: 1 2 2 3
+Cows:  1 2 3 4

@@ -1,0 +1,601 @@
+300
+1 Weird Algorithm
+1 Missing Number
+1 Repetitions
+1 Increasing Array
+1 Permutations
+1 Number Spiral
+1 Two Knights
+1 Two Sets
+1 Bit Strings
+1 Trailing Zeros
+1 Coin Piles
+1 Palindrome Reorder
+1 Gray Code
+1 Tower of Hanoi
+1 Creating Strings
+1 Apple Division
+1 Chessboard and Queens
+1 Digit Queries
+1 Grid Paths
+1 Distinct Numbers
+1 Apartments
+1 Ferris Wheel
+1 Concert Tickets
+1 Restaurant Customers
+1 Movie Festival
+0 Sum of Two Values
+1 Maximum Subarray Sum
+1 Stick Lengths
+0 Missing Coin Sum
+0 Collecting Numbers
+0 Collecting Numbers II
+0 Playlist
+1 Towers
+1 Traffic Lights
+0 Josephus Problem I
+0 Josephus Problem II
+0 Nested Ranges Check
+0 Nested Ranges Count
+0 Room Allocation
+0 Factory Machines
+1 Tasks and Deadlines
+1 Reading Books
+1 Sum of Three Values
+1 Sum of Four Values
+1 Nearest Smaller Values
+1 Subarray Sums I
+1 Subarray Sums II
+1 Subarray Divisibility
+0 Subarray Distinct Values
+1 Array Division
+1 Sliding Median
+0 Sliding Cost
+1 Movie Festival II
+0 Maximum Subarray Sum II
+1 Dice Combinations
+1 Minimizing Coins
+1 Coin Combinations I
+1 Coin Combinations II
+0 Removing Digits
+0 Grid Paths
+0 Book Shop
+0 Array Description
+0 Counting Towers
+0 Edit Distance
+1 Rectangle Cutting
+1 Money Sums
+1 Removal Game
+1 Two Sets II
+0 Increasing Subsequence
+1 Projects
+1 Elevator Rides
+0 Counting Tilings
+0 Counting Numbers
+1 Counting Rooms
+1 Labyrinth
+1 Building Roads
+1 Message Route
+0 Building Teams
+1 Round Trip
+0 Monsters
+1 Shortest Routes I
+1 Shortest Routes II
+0 High Score
+1 Flight Discount
+0 Cycle Finding
+0 Flight Routes
+1 Round Trip II
+1 Course Schedule
+1 Longest Flight Route
+1 Game Routes
+0 Investigation
+0 Planets Queries I
+1 Planets Queries II
+1 Planets Cycles
+1 Road Reparation
+1 Road Construction
+1 Flight Routes Check
+1 Planets and Kingdoms
+1 Giant Pizza
+1 Coin Collector
+1 Mail Delivery
+1 De Bruijn Sequence
+1 Teleporters Path
+0 Hamiltonian Flights
+0 Knight's Tour
+1 Download Speed
+0 Police Chase
+1 School Dance
+0 Distinct Routes
+1 Static Range Sum Queries
+1 Static Range Minimum Queries
+1 Dynamic Range Sum Queries
+1 Dynamic Range Minimum Queries
+0 Range Xor Queries
+0 Range Update Queries
+1 Forest Queries
+1 Hotel Queries
+1 List Removals
+0 Salary Queries
+0 Prefix Sum Queries
+0 Pizzeria Queries
+0 Subarray Sum Queries
+1 Distinct Values Queries
+0 Increasing Array Queries
+1 Forest Queries II
+0 Range Updates and Sums
+1 Polynomial Queries
+1 Range Queries and Copies
+1 Subordinates
+0 Tree Matching
+0 Tree Diameter
+0 Tree Distances I
+0 Tree Distances II
+1 Company Queries I
+0 Company Queries II
+0 Distance Queries
+0 Counting Paths
+1 Subtree Queries
+1 Path Queries
+0 Path Queries II
+1 Distinct Colors
+0 Finding a Centroid
+0 Fixed-Length Paths I
+0 Fixed-Length Paths II
+0 Josephus Queries
+1 Exponentiation
+0 Exponentiation II
+1 Counting Divisors
+0 Common Divisors
+0 Sum of Divisors
+0 Divisor Analysis
+0 Prime Multiples
+0 Counting Coprime Pairs
+1 Binomial Coefficients
+1 Creating Strings II
+0 Distributing Apples
+0 Christmas Party
+0 Bracket Sequences I
+0 Bracket Sequences II
+0 Counting Necklaces
+0 Counting Grids
+1 Fibonacci Numbers
+0 Throwing Dice
+1 Graph Paths I
+1 Graph Paths II
+1 Dice Probability
+1 Moving Robots
+0 Candy Lottery
+0 Inversion Probability
+1 Stick Game
+1 Nim Game I
+1 Nim Game II
+0 Stair Game
+0 Grundy's Game
+0 Another Game
+0 Word Combinations
+0 String Matching
+1 Finding Borders
+1 Finding Periods
+1 Minimal Rotation
+0 Longest Palindrome
+1 Required Substring
+0 Palindrome Queries
+0 Finding Patterns
+0 Counting Patterns
+0 Pattern Positions
+0 Distinct Substrings
+0 Repeating Substring
+0 String Functions
+0 Substring Order I
+0 Substring Order II
+0 Substring Distribution
+0 Point Location Test
+0 Line Segment Intersection
+0 Polygon Area
+0 Point in Polygon
+0 Polygon Lattice Points
+0 Minimum Euclidean Distance
+0 Convex Hull
+1 Meet in the Middle
+0 Hamming Distance
+0 Beautiful Subgrids
+0 Reachable Nodes
+0 Reachability Queries
+0 Cut and Paste
+0 Substring Reversals
+0 Reversals and Sums
+0 Necessary Roads
+0 Necessary Cities
+0 Eulerian Subgraphs
+0 Monster Game I
+0 Monster Game II
+0 Subarray Squares
+0 Houses and Schools
+0 Knuth Division
+0 Apples and Bananas
+0 One Bit Positions
+0 Signal Processing
+0 New Roads Queries
+0 Dynamic Connectivity
+0 Parcel Delivery
+0 Task Assignment
+0 Distinct Routes II
+1 Shortest Subsequence
+1 Counting Bits
+1 Swap Game
+0 Prüfer Code
+1 Acyclic Graph Edges
+0 Strongly Connected Edges
+0 Even Outdegree Edges
+0 Multiplication Table
+1 Advertisement
+0 Special Substrings
+0 Permutation Inversions
+0 Maximum Xor Subarray
+1 Movie Festival Queries
+1 Chess Tournament
+0 Tree Traversals
+0 Network Renovation
+1 Graph Girth
+0 Intersection Points
+0 Inverse Inversions
+0 Monotone Subsequences
+0 String Reorder
+0 Stack Weights
+0 Pyramid Array
+1 Increasing Subsequence II
+0 String Removals
+1 Bit Inversions
+0 Xor Pyramid
+0 Writing Numbers
+1 String Transform
+0 Letter Pair Move Game
+1 Maximum Building I
+0 Sorting Methods
+0 Cyclic Array
+0 List of Sums
+0 Increasing Array II
+0 Food Division
+0 Bit Problem
+1 Swap Round Sorting
+0 Binary Subsequences
+1 Tree Isomorphism I
+0 Counting Sequences
+0 Critical Cities
+0 School Excursion
+0 Coin Grid
+1 Robot Path
+0 Programmers and Artists
+0 Course Schedule II
+0 Removing Digits II
+0 Coin Arrangement
+0 Counting Bishops
+0 Grid Puzzle I
+0 Grid Puzzle II
+0 Empty String
+1 Grid Paths
+0 Bit Substrings
+0 Reversal Sorting
+0 Counting Reorders
+1 Book Shop II
+0 Network Breakdown
+0 Visiting Cities
+0 Missing Coin Sum Queries
+0 Number Grid
+0 Maximum Building II
+0 Filling Trominos
+1 Stick Divisions
+1 Coding Company
+0 Flight Route Requests
+0 Two Stacks Sorting
+0 Tree Isomorphism II
+0 Forbidden Cities
+1 Area of Rectangles
+0 Grid Completion
+0 Creating Offices
+1 Permutations II
+0 Functional Graph Distribution
+0 New Flight Routes
+0 Grid Path Construction
+22312 23231
+18651 19855
+16422 17385
+15199 15889
+13518 14028
+9341 10215
+6975 7237
+7396 8051
+8916 9431
+8442 9001
+7337 8126
+6433 6950
+738 876
+639 668
+6170 6346
+5384 6305
+3182 3249
+377 471
+1331 1757
+9046 9367
+6080 7119
+5842 6518
+4508 5688
+4698 5169
+4466 4749
+5256 5776
+5244 5451
+4799 5007
+516 554
+522 617
+206 272
+3986 4705
+3986 4320
+2914 3351
+258 308
+131 191
+131 146
+115 126
+2422 2952
+2745 2995
+2722 2779
+2404 2576
+2860 3249
+2143 2436
+2620 2777
+3144 3284
+2679 2984
+2539 2702
+208 229
+2194 2314
+1693 2051
+1216 1407
+1265 1574
+1295 1566
+7794 8278
+6773 7225
+6253 6706
+5083 5848
+5837 5952
+5317 5528
+4815 5347
+3287 3671
+255 280
+3658 3880
+3217 3498
+3683 3821
+2631 2955
+2916 3183
+3065 3527
+1993 2282
+355 512
+78 90
+125 140
+5204 5522
+3168 3971
+4061 4232
+3558 3723
+3454 3627
+2714 3014
+1447 1935
+2680 3034
+2371 2563
+1297 1892
+1607 1928
+1304 1566
+1097 1223
+1310 1536
+1733 1809
+1151 1548
+1356 1440
+924 1016
+939 1011
+445 544
+572 637
+1095 1129
+1046 1074
+941 1032
+887 922
+484 530
+619 684
+541 624
+396 415
+382 503
+433 516
+351 404
+471 544
+395 421
+410 428
+315 394
+3382 3536
+2649 2822
+2614 2727
+2352 2414
+2419 2463
+1845 1990
+1620 1672
+1400 1517
+1210 1294
+965 1143
+120 129
+92 96
+844 947
+814 965
+47 56
+648 683
+591 711
+508 587
+336 352
+2525 2738
+1396 1721
+2134 2257
+1457 1624
+1217 1266
+1278 1359
+1235 1292
+1215 1288
+791 843
+923 979
+757 796
+52 65
+642 842
+116 120
+43 47
+34 36
+46 67
+3219 3594
+2233 2830
+2380 2779
+1647 1963
+940 1570
+71 105
+103 126
+59 75
+1300 1517
+1094 1207
+1004 1084
+867 944
+86 95
+33 41
+39 42
+34 35
+1100 1400
+697 766
+572 619
+470 488
+562 607
+301 321
+411 425
+372 380
+544 559
+675 701
+559 586
+364 423
+37 55
+45 51
+459 755
+929 1298
+652 769
+411 495
+358 527
+425 573
+233 398
+33 37
+42 53
+41 45
+35 37
+37 41
+33 36
+30 31
+26 27
+19 23
+29 31
+241 263
+116 151
+133 139
+68 87
+68 72
+31 68
+86 110
+470 611
+63 72
+34 49
+37 42
+27 35
+29 32
+26 30
+26 28
+27 28
+26 27
+18 19
+21 22
+21 22
+20 21
+11 12
+16 22
+19 22
+20 22
+19 20
+27 32
+14 16
+17 20
+16 17
+14 15
+600 809
+639 806
+229 312
+259 274
+344 365
+22 23
+15 19
+29 33
+407 432
+15 16
+16 19
+322 350
+163 186
+183 214
+183 188
+144 216
+260 293
+196 210
+32 33
+17 20
+131 146
+11 13
+123 151
+261 283
+184 192
+276 304
+33 39
+178 194
+110 137
+3 4
+264 274
+169 180
+110 152
+13 16
+13 21
+97 118
+127 141
+73 97
+8 12
+143 173
+20 21
+68 101
+155 169
+87 110
+49 99
+9 11
+138 212
+6 10
+5 9
+10 12
+13 15
+10 11
+132 174
+144 183
+8 9
+9 10
+5 6
+150 170
+140 147
+126 167
+8 17
+186 235
+78 95
+7 12
+264 319
+112 141
+92 99
+4 13
+114 136
+88 107
+125 143
+4 6
+63 88
+168 186
+7 8
+60 130
+5 6
