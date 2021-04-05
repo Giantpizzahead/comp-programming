@@ -1,3 +1,8 @@
+/**
+ * Split the numbers into two sets (half in each). Brute force each of the sets, then use a map to combine the results.
+ * Runtime: O(2^(N/2))
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

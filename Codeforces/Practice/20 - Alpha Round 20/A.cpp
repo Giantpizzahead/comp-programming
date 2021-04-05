@@ -1,20 +1,19 @@
-#pragma GCC optimize("Ofast")
-#pragma GCC target("avx,avx2,fma")
-
 #include <bits/stdc++.h>
 #define rep(i, a, b) for (int i = (a); i < (b); i++)
-#define all(x) begin(x), end(x)
+#define all(x) x.begin(), x.end()
 #define sz(x) (int) (x.size())
 using namespace std;
 using ll = long long;
 using vi = vector<int>;
 
-const int MAXN = 1e5+5;
-
-int N;
+string S;
 
 void solve() {
-    
+    cin >> S;
+    int last = sz(S)-1;
+    while (last != 0 && S[last] == '/') last--;
+    rep(i, 0, last+1) if (i == 0 || S[i] != '/' || S[i-1] != '/') cout << S[i];
+    cout << '\n';
 }
 
 int main() {

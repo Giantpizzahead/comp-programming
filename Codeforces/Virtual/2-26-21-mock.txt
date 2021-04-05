@@ -1,0 +1,19 @@
+5:42 - Start of contest / Reading 0
+5:51 - Implementing 0
+6:04 - Initial submit for 0, got AC! (100%)
+6:05 - Reading A
+6:17 - Implementing test for A1
+6:30 - Back to thinking for A
+6:47 - Implementing A
+6:59 - Initial submit for A, got TLE 9
+7:08 - Got 1st subtask for A (50%)
+7:12 - Got AC on A! (100%)
+7:13 - Reading B
+8:00 - Implementing B1
+8:24 - Initial submit for B1 (correctness check only), got TLE 6
+8:50 - Got 1st subtask for B (50%), kinda cheesed though
+8:50 - Reading C1
+9:01 - Solution idea for C1 found, reading C2
+9:13 - Accepting partials for C, implementing C1
+9:24 - Initial submit for C1, got AC (50%)
+9:42 - End of contest

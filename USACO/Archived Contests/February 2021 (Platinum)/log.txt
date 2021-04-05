@@ -1,0 +1,9 @@
+5:15 - Start of contest, reading #1
+5:25 - Implementing template, then #1
+5:41 - Initial submit for #1, got AC! (20/20)
+5:41 - Reading #2
+6:20 - Testing theory for #2
+7:52 - Regrouping for #2
+8:18 - Give up on #3, focus on #2
+8:59 - 9/20 on #2
+9:15 - End of contest

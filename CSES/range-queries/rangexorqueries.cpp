@@ -1,6 +1,3 @@
-#pragma GCC optimize("Ofast")
-#pragma GCC target("avx,avx2,fma")
-
 #include <bits/stdc++.h>
 #define rep(i, a, b) for (int i = (a); i < (b); i++)
 #define all(x) begin(x), end(x)
@@ -9,12 +6,22 @@ using namespace std;
 using ll = long long;
 using vi = vector<int>;
 
-const int MAXN = 1e5+5;
+const int MAXN = 2e5+5;
 
-int N;
+int N, Q;
+int A[MAXN], P[MAXN];
 
 void solve() {
-    
+    cin >> N >> Q;
+    rep(i, 1, N+1) {
+        cin >> A[i];
+        P[i] = P[i-1] ^ A[i];
+    }
+    int a, b;
+    rep(i, 1, Q+1) {
+        cin >> a >> b;
+        cout << (P[b] ^ P[a-1]) << '\n';
+    }
 }
 
 int main() {

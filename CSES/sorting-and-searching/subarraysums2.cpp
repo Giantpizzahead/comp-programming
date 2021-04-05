@@ -10,11 +10,10 @@ const int MAXN = 2e5;
 int N;
 ll X;
 ll A[MAXN];
-unordered_map<ll, int> M;
+map<ll, int> M;
 
 void solve() {
     cin >> N >> X;
-    M.reserve(N+1);
     rep(i, 0, N) cin >> A[i];
     M[0] = 1;
     ll sum = 0, answer = 0;
