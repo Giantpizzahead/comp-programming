@@ -1,0 +1,18 @@
+10:04 - Start of contest, reading #1
+10:19 - Implementing #1
+11:00 - Working out kinks with #1
+11:39 - Initial submit for #1, got TLE (8/20)
+11:41 - Got AC on #1! (20/20) Starting #2
+12:00 - Thinking about #2
+12:30 - Implementing #2
+12:45 - Initial submit for #2 (testing purposes), got what I wanted (3/20)
+1:00 - Currently implementing #2
+1:20 - Got AC on #2! (24/24) Starting #3
+1:48 - Implementing #3, aiming for 50%
+2:00 - Currently implementing #3
+2:15 - 50% on #3, going for full
+2:28 - AC on #3! (20/20)
+2:57 - Finished writing short explanations for all problems
+
+PERFECT SCORE WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+:DD:D:D:D:D:D::D:D:D:D

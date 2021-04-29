@@ -1,0 +1,15 @@
+[DONE] General warmup: https://codeforces.com/contest/1344/problem/B
+
+[DONE] Math warmup: http://usaco.org/index.php?page=viewproblem2&cpid=1115
+
+Remember:
+Log your time. Set an alarm every hour to keep on track.
+Don't get stuck on one way of trying a problem.
+If you aren't making progress, switch to another problem, then come back with a fresh perspective.
+Make sure you have the details worked out before coding.
+The goal is to get as many points as possible, not to full solve. Don't risk it.
+
+Target score: 500
+Bonus score: 650
+
+You got this!
