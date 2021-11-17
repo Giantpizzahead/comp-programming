@@ -1,0 +1,35 @@
+Past Contest Tracker (very outdated)
+
+8/13/20, Facebook Hacker Cup 2019 Quals: 100/100 (Needed pretty big hints for D)
+
+Codejam happened sometime. Kinda forgot to record here. Oh well.
+
+CAMP!!!!!!!!
+
+*REAL* 3/29/20, US Open 2020, 5 hours: 525/1000 (One word: math. Math. Math. MATH. So yeah. Rip me.)
+
+3/28/20, USACO Feb 2015 Gold, 2.5 hours (no #3): 666/666 (This was [hopefully] a more accurate difficulty level for the actual US Open.)
+
+3/27/20, US Open 2015, 5 hours: 1000/1000 (As predicted by the stats, this one was much easier than a typical US Open contest. I ACed all the problems within half of the contest time limit!)
+
+3/25/20, [MASTERY] USACO Jan 2020 Platinum, 3.5 hours: 889/1000 (The problems still weren't easy, but I managed to do them al; I also got 1000 a bit after the contest. So, I'd count this as mastered too!)
+
+3/21/20, [MASTERY] IOI 2009 Day 0, 1 hour: 300/300 (Looks like I definitely mastered this one! Half an hour to spare too! Wow.)
+
+3/19/20, US Open 2014, 5 hours: 567/1000 (Again, quite hard. This one really tests your implementation skills!)
+
+3/14/20, IOI 2018 Day 2, 5 hours: 123/300 (This one was even harder... there were no easy problems, so this will definitely be an interesting contest to review...)
+
+*REAL* 3/7/20, HPI 2020 (We got 1st place somehow! Great teamwork! :D)
+
+2/29/20, IOI 2018 Day 1, 5 hours: 186/300 (This one was hard... #2 was tricky [geometric thinking], and #3 needed a Euler tour...?)
+
+2/18/20, IOI 2019 Day 0, "2" hours: 323/400 (24/100 on 2 because it was hard, actually 4 hours long because no grader = tons of issues)
+
+2/17/20, IOI 2009 Day 2, 5 hours: 385/400 (4 was challenging but fun, got 85/100 on 3 because Java TLE)
+
+2/15/20, USACO Jan 2020 Plat, 3.5 hours: 690/1000 (2 was hard cause inverse matrices, 3 was weird [got right idea, but bugged sol])
+
+2/8/20, IOI 2009 Day 1, 5 hours: 330/400 (Spent 3/4 of the time on #1, and only got 30/100 on that one! ACed all others though.)
+
+1/19/20, IOI 2009 Day 0, 3 hours: 300/300 (Needed pretty big hints for #2 and #3)

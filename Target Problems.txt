@@ -1,0 +1,141 @@
+Useful links:
+
+OI Problem Checklist - https://oichecklist.pythonanywhere.com/
+
+AtCoder Problem Checklist - https://kenkoooo.com/atcoder
+
+USACO Camp Website - https://probgate.org/
+
+Current problems:
+
+https://acm.timus.ru/problem.aspx?space=1&num=1848
+
+SPOJ - CLOPPAIR
+
+Codechef - SEALCM
+
+UCF HSPT Online 2019 - Canalanac
+
+UCF HSPT Online 2019 - Slime
+
+USACO Camp - Bessieball (https://probgate.org/viewproblem.php?pid=1)
+
+USACO Camp - Baby Names (https://probgate.org/viewproblem.php?pid=538)
+
+Codeforces #181 Div. 2 - Beautiful Numbers
+
+IOI 2018 Day 2 - Highway
+
+USACO US Open 2009 (Gold -> Platinum) - Tower of Hay
+
+Codeforces #585 Div. 2 (*2800) - Radio Stations
+
+Codeforces #606 Div. 1 (*2300) - Beautiful Rectangle
+
+Codeforces #152 Div. 1 (*2600) - Donkey and Stars
+
+FHC 2020 Round 1 - Quarantine
+
+FHC 2020 Round 2 - Log Drivin' Hirin'
+
+USACO US Open 2011 (Gold -> Platinum) - Soldering
+
+Codeforces Beta #47 (*2300) - Square Equation Roots
+
+Google Kick Start Round D 2020 - Beauty of Tree
+
+Google Kick Start Round D 2020 - Locked Doors
+
+Google Kick Start Round E 2020 - Golden Stone
+
+SPOJ - BUD13TLF (Boxes)
+
+SPOJ - CLOSEST (Closest Triplet)
+
+Google Codejam Round 3 2019 - Pancake Pyramid
+
+Google Codejam Round 3 2019 - Napkin Folding
+
+Google Codejam Round 2 2020 - Emacs++
+
+Google Codejam Round 1B 2020 - Join the Ranks
+
+Google Codejam Round 1B 2020 - Blindfolded Bullseye
+
+Google Codejam Quals 2020 - Indicium
+
+Google Codejam Round 2 2019 - Pottery Lottery
+
+Google Codejam Round 1A 2019 - Golf Gophers
+
+Codeforces #618 Div. 1 (*2900) - Around the World
+
+DM::OJ TLE '17 Contest 4 - Pascal's Tree
+
+Codeforces #5 Edu. (*2700) - Expensive Strings
+
+AtCoder Educational DP Contest - Tower
+
+Codeforces Bubble Cup 12 Finals - Product Tuples
+
+Codeforces Innopolis Open 2018-2019 - Cake Tasting
+
+Codeforces Innopolis Open 2018-2019 - Well, Just You Wait!
+
+HackerRank (Cornell University HS Contest 2018) - Bugs on a Grid
+
+SPOJ - AROPE3
+
+ICPC 2019 World Finals - First of her Name (access via Kattis)
+
+Codeforces #621 Div. 1/2 (*3000) - Cow and Exercise
+
+IOI 2018 Day 1 - Seats
+
+vJudge - Gorgeous Sequence (https://vjudge.net/problem/HDU-5306)
+
+SPOJ - BRKSTRNG (Knuth Optimization)
+
+IOI 2019 Day 0 - Job
+
+Codeforces #451 Div. 2 (*2900) - Most Dangerous Shark
+
+IOI 2018 Day 1 - Werewolf
+
+Codeforces #381 Div. 1 (*2900) - Gosha is hunting
+
+USACO December 2008 (Gold -> Platinum) - Largest Fence (access via AlphaStar)
+
+Codeforces #172 Div. 1 (*2800) - k-Maximum Subsequence Sum
+
+Codeforces A* Plat Day 14 Contest - All unsolved problems
+
+IOI 2009 Day 1 - Archery
+
+IOI 2018 Day 2 - Meetings
+
+CodeChef - ZUBSPOIL (Unpredictable Array)
+
+---------------------------------------------------------------------------------------------------------------
+Note: idk where to write this so I guess it'll go here. Apparently USACO has the -Xss option set to basically infinity (or they somehow simulate the stack), because I couldn't get my program to throw a StackOverflowError. So, don't worry about making recursive programs; they won't cause the stack to overflow. You can simulate this on your own machine by using -Xss 256m in the VM options of the target run configuration, or "ulimit -s unlimited".
+---------------------------------------------------------------------------------------------------------------
+
+Contest Problem Lists
+
+USACO Camp - https://probgate.org/contest/index.php
+
+IOI - http://stats.ioinformatics.org/olympiads/
+
+Google Code Jam - https://codingcompetitions.withgoogle.com/codejam/archive
+
+Facebook Hacker Cup - https://www.facebook.com/hackercup/past_rounds/
+
+ICPC - https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8
+
+---------------------------------------------------------------------------------------------------------------
+
+General Problem Lists
+
+SPOJ - https://www.spoj.com/ (Problem sorter at https://problemclassifier.appspot.com/)
+
+Codeforces - https://codeforces.com/problemset
