@@ -1,4 +1,4 @@
 # comp-programming
 Contains all the past code I've written for competitive programming.
 
-There are also some templates in this repository (although I wouldn't recommend using them in contest :p). Take a look at the **templates** folder.
+Most solutions (mainly the recent ones) have short comments at the top of the code explaining my ideas and how I got to them.
