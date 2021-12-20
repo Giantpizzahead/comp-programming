@@ -1,0 +1,2 @@
+print(sum(n if n == sum((ord(x)-ord('0'))**5 for x in str(n)) else 0 for n in range(10, 9**5 * 6 + 1)))
+print(list(filter(None, [n if n == sum((ord(x)-ord('0'))**5 for x in str(n)) else 0 for n in range(10, 9**5 * 6 + 1)])))
