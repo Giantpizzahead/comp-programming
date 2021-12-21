@@ -1,0 +1,14 @@
+Good luck! You got this. :D
+
+6:20 - Start of contest, on 1
+6:44 - Implementing N^2 for 1
+6:56 - Submit N^2, got expected (7/19)
+7:03 - AC on 1! (19/19) On to 2
+7:40 - On to 3 (partial idea for 2)
+8:14 - Implementing something (N^3?) for 3
+8:59 - Initial submit for 3, got 11/26, trying to optimize
+9:15 - 16/26 on 3, moving to 2 for now
+10:00 - Initial submit for 2, got 10/22, getting 1st subtask
+10:05 - 14/22 on 2, optimizing 3
+10:18 - 18/26 on 3, done with optimizing
+10:20 - End of contest
