@@ -1,0 +1,7 @@
+Sort from small to large, tie break by most left
+Find which can be on leftmost unfixed point, and iterate
+O(N^2)
+
+2D seg tree
+Update box of values within K and i > current element i, so each node stores how many elements prevent the current one from becoming first
+Query for the smallest value node with value 0 that exists in array

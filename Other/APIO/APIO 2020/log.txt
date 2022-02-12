@@ -1,0 +1,14 @@
+5:00 - Start of contest, on A
+4:32 - Paused
+4:32 - Move on to B
+4:05 - Solution idea for B, on C
+3:59 - Paused
+3:36 - Trying something somewhat sketchy for A
+3:22 - Initial submit for A, got WA (0)
+3:15 - Full credit on A! (100) On to implementing B
+3:10 - QUERIES ARE ONLINE AHHHH oops
+3:05 - Implementing B
+2:27 - Initial submit for B, got WA (0)
+2:20 - Full credit on B! (100) On to thinking about C
+1:25 - Paused
+1:00 - Paused

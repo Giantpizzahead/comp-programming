@@ -1,0 +1,61 @@
+[Simplified problem statement]
+Given an array C of N integers, each in the range [1, M]. (Guaranteed at least 1 of each color)
+For each c in [1, M], what's the minimum # of elements you must change to create an array that:
+- Only has one or two colors, one of which is c
+- Can be separated into contiguous ranges of same elements, with the middle ranges having an even size
+
+Ex: 2 2 2 | 5 5 5 5 | 2 2 | 5 5 | 2 2 2 2 | 5 5
+Has two colors, even size ranges inside, any size ranges outside
+
+Find pairs with same value
+. 2 2   5 5 . .   2 2   . 5   . . 2 2   5 5
+2 2 2 | 5 5 . . | 2 2 | . . | 2 2 2 2 | 5 5
+Cost = Number of different pairs + 
+
+When including a color x as not the target c, let degree (# times it appears) of that element = d(x):
+Best case = N - d(x) - d(c)
+Worst case = N - d(x) + 1
+So, use the highest d(x) as "companion colors", don't need to test smaller ones
+
+After fixing 2 colors, how to find minimum cost quickly?
+. . 1 . 2 2 . 1 2 . . . 2 1 1 . 2 . . . 1
+Fix parity (location of evens)
+. . 1 . 2 2 . 1 2 . . . 2 1 1 . 2 . . . 1
+   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^
+For each pair, optimal cost can be easily determined
+No match (. .) = 2
+One match (1 ., . 1, 2 ., . 2) = 1
+Both match (1 2, 2 1) = 1
+Same match (1 1, 2 2) = 0
+Might need to add one element matching either of the target colors on the ends (special for loc 0 and N-1)
+- Can avoid coding this special case by changing N for different parity!
+
+Don't need to fix two colors to calc above cost, it doesn't affect anything
+    . . 1 . 2 2 . 1 2 . . . 2 1 1 . 2 . . .
+       ^   ^   ^   ^   ^   ^   ^   ^   ^   
+c=1: 2   1   2   1   2   2   1   1   2   2
+c=2: 2   2   0   2   1   2   1   2   1   2
+1,2: 2   1   0   1   1   2   1   1   1   2 = 12
+   (1 1 1 1 2 2 1 1 2 2 1 1 1 1 1 1 2 2 1 1)
+Total cost of a pair = sum of min(cost 1, cost 2) for each element
+
+Each pair can only have up to one color = 0, only up to two colors = 1, everything else will be = 2
+Total cost of a pair = 2 * (# of pairs) - Places with improvement
+Iterate through the pairs with 0 or 1 independently - bounded by 2N
+
+For a heavy color: Process all of its pairs, then for each other color, manually iterate and update answer
+O(2N) worst per heavy color
+
+Light colors don't need to be paired if done correctly, since best and worst cases above involve degree
+- Do need to be careful though...
+
+Actually, only 1s will conflict, and only conflict between 2 colors
+Total cost of a pair =
+2 * (# of pairs) - 2 * # with 0 in either color - # with 1 in either color + # where colors conflict
+O(N + M^2)
+
+To get full credit, evaluate conflict pairs manually, and just take min for all other colors
+- Simply iterate to next one if conflict arises (happens at most N times)
+O(N * log(N))
+
+This is a really nice problem :O

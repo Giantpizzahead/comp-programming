@@ -1,0 +1,61 @@
+If s_i >= t_i, it's essentially a free track
+
+In geometry form with points (s_i, t_i) and segments connecting adjacent stations:
+Cost from (s_a, t_a) to (s_b, t_b) = max(0, t_a - s_b)
+
+Swap two tracks:
+(a, b) (c, d) (e, f) (g, h)
+= max(0, b-c) + max(0, d-e) + max(0, f-g)
+(a, b) (e, f) (c, d) (g, h)
+= max(0, b-e) + max(0, f-c) + max(0, d-g)
+
+if b > c > d > e > f > g:
+no swap = b-c + d-e + f-g = b+d+f-c-e-g
+swap = b-e + 0 + d-g = b+d-e-g
+worth if f < c, which is true, so should swap
+
+Want to use min s_i first, and max t_i last (to ignore them)
+Say that these belong to 2 independent sections
+Fix them, then what?
+
+Now want to use min remaining s_i that's >= than the current train speed in the front
+Also want to use max remaining t_i that's <= the current speed limit in the back
+
+0 1 2 3 4 5 6 7 8 9
+  a     b c d     S  (S)
+T     b     d a c    (T)
+
+the first T and final S are implied
+every non-fixed edge from S to T has cost:
+0 if | or /, otherwise t-s
+
+Find a bipartite matching of the above that minimizes the total cost, cannot create a cycle with the same letters though! (Both in pairing would have 2 letters satisfied afterwards, not connected to S = cycle)
+
+a b c
+b c a
+
+Sweep left to right: As long as there are unused in S, you're building up cost proportional to # unused...
+
+As soon as you come across one in S and T that can be paired (not both satisfying 2 letters), pair them!
+
+0 1 2 3 4 5 6 7 8 9 10
+  b   a   c d   e   S  (S)  
+T     b   e c   d a    (T)
+
+Track lines as they form, don't merge until you can / the edge won't form a cycle (at most 1 waiting in each)
+
+0 1 2 3 4 5 6 7 8 9 10
+  a d c   b         S  (S)  
+T     b   c d     a    (T)
+It doesn't matter what you take, the result is the same
+
+0 1 2 3 4 5 6 7 8 9 100 1001
+  c         a b          S  (S)
+T               a b  c      (T)
+
+Start by pairing closest pairs, then merge cycles and then eventually the path
+
+a c d b
+b d c a
+
+To merge cycles: Remove 1 edge from each cycle (a1-a2, b1-b2), then add 2 edges connecting a1-b1 and a2-b2

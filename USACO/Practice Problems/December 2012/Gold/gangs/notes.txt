@@ -1,0 +1,31 @@
+Bonus bounds: N <= 5e5, M <= 5e5
+
+Paper notes:
+Case 1: sum(all except max) >= max, unpaired ans = sum of all % 2
+Else: unpaired ans = max - sum(all except max)
+If stage has not gang 1, add all of that gang to the stage before calcing
+Remember to treat gang 1 on stage as a special case!
+
+Final ans: If gang 1 cnt <= unpaired, ans = -1
+else: ans = gang 1 cnt - unpaired
+
+Special case if M is 2, just put all the 1s and then 2s
+
+Fix a cow to go, then figure out the optimal # of gang 1 cows after matching the rest in O(1)
+    Think of the process as making pairs of cows
+    # cows left to match = max in 1...M - sum(all except max in 1...M)
+    (if above is negative, it becomes either 0 or 1 depending on parity)
+    Use this to figure out the # of remaining gang 1 cows
+
+THIS IS NOT ALWAYS TRUE - Optimal order will be increasing from 1 to M, ending on all 1s, except for the largest gang that's not 1
+    Using the above, will only try at most 2N cows
+
+Go from gang 1 to N, place and check if it's still possible to get max
+    If no longer possible, find earliest that works and use it
+
+Runtime: O(N+M)
+
+Putting 5 in advance means that 5 must be removed to match as many >1 as possible, so it doesn't make sense for 8 to need removal as well
+3 5 3 4 8 4
+
+So, optimal order will be increasing from 1 to M except for one number, ending on all 1s

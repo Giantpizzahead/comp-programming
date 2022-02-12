@@ -1,0 +1,23 @@
+In a tree:
+Answer must be at least the max of best path between 2 nodes
+On top of that, include 1 min cost edge that goes from a node that's not X or Y
+
+In a graph:
+Answer is min of max edge in best of: Paths between X and Y, including 1 edge that goes from a node in between the path (not X or Y)
+OR two distinct shortest paths between X and Y
+OR one shortest path, including >= 2 edges from 1 of the endpoint nodes
+
+Iterate in increasing order of edge weights
+At any time, query is satisfiable with that weight if:
+Path from X to Y with at least 1 extra edge not on X or Y
+OR Path from X to Y with at least 2 extra edges on one of the endpoints (X or Y)
+OR Simple cycle from X to Y with no other edges in the component (otherwise would meet one of the above conditions)
+
+All of these can be checked easily:
+If the component is not a path, ANY queries involving nodes in that component can be answered!
+So, maintain DSU with status of component, including end nodes of the path
+When merging two components, iterate through nodes in the smaller one and look for queries
+If component is still a path, store these queries temporarily (answer them later)
+
+Queries are online!
+When did each component become not a path?

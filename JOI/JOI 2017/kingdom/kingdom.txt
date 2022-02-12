@@ -1,0 +1,112 @@
+Requested division can be made by drawing a zig-zag line from left to right, only going in one vertical direction.
+Ex:
+J J J J
+   /---
+J J|I I
+---/
+I I I I
+
+I I I I
+
+Binary search on difference?
+
+Maximum(s) belong to one of the two... call it region 1
+Minimum(s) must belong to region 2, otherwise worst case answer
+Must choose between max going up or down (2 cases)
+Now the min of max difference = include max elements in 1, min elments in 2, can be done greedily
+2..1
+2221
+2221
+2222
+
+222.
+222.
+22.1
+2.11
+
+1 20
+19
+
+1111
+2111
+2211
+2221
+
+2222
+2222
+1111
+1111
+
+...1
+...1
+...1
+...1
+Once a row or column has both regions, the direction is set
+Need fast way to "fill" unallowed locations
+
+On a location,
+Must be filled one way if and only if:
+....
+2...
+..1.
+....
+
+All the ways that a fill could look like:
+111
+111
+111
+(all one region)
+1122
+1122
+1122
+1122
+(straight line)
+1112
+1122
+1122
+2222
+(diagonal, could rotate and flip)
+
+First is special case that need not be considered (never optimal). The rest can be accounted for by setting a "boundary" on where rightmost 1 and leftmost 2 are, must stay the same or decrease as it goes downward, and rotating the board (maybe no need to flip?)
+Maintain boundary efficiently with sets to get O(N^2 * log(N)) runtime
+
+Rotation:
+
+.O..
+...O
+....
+....
+
+(0, 0) -> (0, 3-0)
+(0, 1) -> (1, 3-0)
+(i, j) -> (j, [new W]-1-i)
+
+......
+.O....
+......
+to
+...
+.O.
+...
+...
+...
+...
+
+Boundary:
+
+...O-.
+..1-..
+..O-..
+1.-...
+.O-...
+O-....
+
+...-O.
+...-2.
+.-O...
+.-.2..
+.-2...
+-O....
+
+Maintain rightmost element hull from *bottom up* in left region
+Maintain leftmost element hull from *top down* in right region

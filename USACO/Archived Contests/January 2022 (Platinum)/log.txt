@@ -1,0 +1,14 @@
+Good luck and have fun. You got this :)
+
+4:00 - Start of contest, on 1
+3:24 - Implementing 1
+3:01 - Initial submit for 1, got expected kinda (went on wrong sol path for first 45 mins)
+2:42 - Got solution idea for 1, implementing
+2:01 - Got 30% for 1, have the right runtime, optimizing to get full
+1:44 - Can't optimize 1 for some reason, moving on for now
+1:28 - 3 might be convex hull? Risky to try though, moving to 2
+0:35 - 1s a lost cause, just get partials
+0:11 - Partials on 2, on to trying 1 again
+0:01 - Got as many partials as I'm gonna be able to get
+
+This was tough. :(
