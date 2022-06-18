@@ -1,0 +1,27 @@
+Log:
+3:00 - Start of contest, on A
+2:52 - Accepted A, on to B
+Typo: A invalid photos print -1 is correct, 0 is wrong (which is in PDF)
+2:31 - On to I (solving backwards, was implementing B)
+2:20 - On to H
+I seems like a flow problem, where each range worker is (+1, -1) if you consider differences, and you need to flow all the differences to = 0 at the end
+2:09 - On to G
+H is maybe convex hull? I don't know for sure.
+1:56 - On to D
+G feels impossible to do without guessing? This contest is hard... D:
+I'm gonna go to the easier problems for now.
+D typo, (1 <= i <= T)
+1:40 - On to C
+D is math? Idk ahhhhhhhh
+1:18 - Accepted C, on to B
+C clarification, maybe explicitly state that the root can't be a leaf?
+1:02 - On to H
+0:45 - On to D, had some divide and conquer idea for H involving splitting at the lowest height ladder, but would be N^2
+0:30 - Got partials (maybe?) on D by simulating version with 2 piles, and trying to find a pattern, on to F
+0:10 - Can't get any more, so ending here
+
+Comments:
+I think the problemset is pretty balanced, it'd probably be hard even for a full Plat/Camper team to full solve it. Although I'd also say that a team of Gold or below would struggle (maybe they'd be able to get A-D?).
+Some typos in the PDF, but I was able to understand all the problems without issues. I had partial ideas for some problems above, but don't know how close they were.
+
+Props to yall for organizing this - all the problems were interesting, none of them felt forced or *too* standard (though Monkey on a Ladder is a bit close). I enjoyed it overall! Even if I couldn't solve anything :p
