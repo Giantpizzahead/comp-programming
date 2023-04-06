@@ -1,0 +1,68 @@
+Let D = # of dimensions on the circuit board, N = # of nodes, K = Target indegree of each node
+Circuit board size is also given, one for each dimension
+Constraints:
+2 <= D <= 4
+1 <= K <= D
+1 <= N <= 1e5
+Dimensions are roughly a cube, but the last dimension might be a lot smaller (think 3D circuit board)
+
+Placement:
+Generate a directed graph with no self-edges, such that every node has indegree of exactly K.
+Then, place each of the nodes into a location on the circuit board (in bounds).
+Output the generated graph, along with the locations on the board.
+For now, you should assign this randomly (any valid graph and locations).
+Everything is zero-indexed.
+
+Sample placement:
+board = {D=2, size=[30, 3]}
+gen_placement(board, N=4, K=2)
+
+Sample output:
+placement = {
+    N = 4, K = 2,
+    Node locations - [(0, 0), (3, 0), (0, 3), (3, 3)],
+    Directed edges - [(0, 1), (0, 2), (1, 0), (1, 3), (2, 0), (2, 3), (3, 1), (3, 2)]
+}
+
+Can write a simple check_placement function to test this.
+
+Routing:
+Given a placement (directed graph of edges and locations for each node), place axis-aligned wires
+such that no "unit edge" of the circuit board grid is used more than K times.
+Each directed edge (a, b) requires a wire connecting the two nodes. Wires do not have directions.
+In the 2D case, that means you can only place horizontal and vertical wires, and no unit length of the grid
+should have more than K wires. Wires can change directions / cross each other with no limitations.
+
+Generate any valid wiring, or say that it doesn't exist. (Best wiring would minimize sum of wire lengths)
+
+Sample routing (continued from above):
+board = {D=2, size=[30, 3]}
+placement = {
+    N = 4, K = 2,
+    Node locations - [(0, 0), (3, 0), (0, 3), (3, 3)],
+    Directed edges - [(0, 1), (0, 2), (1, 0), (1, 3), (2, 0), (2, 3), (3, 1), (3, 2)]
+}
+So basically a square with two directed edges on each side.
+gen_routing(board, placement)
+
+Sample output:
+One way would be to just draw two squares.
+
+Notes:
+
+Maybe set this up as a max flow problem?
+
+To limit the number of flows (wires) that go through one of the unit lengths, setup a flow system like:
+
+O->\   /->O    (both node 1)
+    O->O
+O->/   \->O    (both node 2)
+
+Where the middle 2 nodes are temporary, with only 1 edge of capacity K connecting them.
+This fixes the directional vs bidirectional issue.
+
+How to match specific nodes to each other?
+
+Consider using min cost max flow to match random nodes within a specified config (say, a line) to each of
+the target nodes. Capacity of each node = (In + out) degree.
+Then, use constructive methods (or recursion?) to solve.

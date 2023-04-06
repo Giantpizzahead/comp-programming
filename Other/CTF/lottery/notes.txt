@@ -1,0 +1,24 @@
+When generating random integers in [0, 10^9-1]:
+The PRNG generates a 32 bit integer, then strips off the 2 least significant bits.
+There is a ~6.87% chance that this stripped number is skipped (>10^9-1).
+Otherwise, it's returned as the random number.
+
+https://research.nccgroup.com/2021/10/18/cracking-random-number-generators-using-machine-learning-part-2-mersenne-twister/#3.2.4.3
+The above research shows that new random numbers can be correctly predicted from old ones:
+MT[i] = predict(MT[i-624], MT[i-623], MT[i-227])  # Returns the correct number
+Or you can remove 1 of the required numbers and be left with two possible choices for the new number:
+MT[i] = predict_tuple(MT[i-623], MT[i-227])  # Returns a two-element tuple, one of which is the correct number
+
+In our case, we need to guess how many elements were skipped, along with the LSBs that were removed, to predict the next number. About 42 numbers will be skipped in the 623 element sequence, and 16 numbers in 227 elements, on average.
+You only need to guess the LSBs of MT[i-623], since MT[i-227] is only xored, and the LSBs end up getting removed anyways.
+
+Using https://keisan.casio.com/exec/system/1180573211 to find number of expected skips:
+At least 95% chance that:
+The expected skips will be in between 32-60 (29 choices) for MT[i-623], best is 45 with prob 0.0567
+The expected skips will be in between 8-26 (19 choices) for MT[i-227], best is 16 with prob 0.0944
+
+Chance of getting a number right, assuming a very bad situation:
+1 correct answer for every 29 * 19 * 4 = 2204 wrong answers
+
+Assuming the skip values above and guessing LSBs:
+Probability of correct answer = 0.0567 * 0.0944 * 0.25 = 0.00133812 = 1 correct every 747 guesses

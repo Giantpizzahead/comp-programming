@@ -1,0 +1,14 @@
+[Did 1-4] LeetCode Biweekly Contest 95: 1-3
+
+[Did 1-4] LeetCode Weekly Contest 327: 1-3
+
+Codeforces Round #843 (Div. 2): A-D
+
+AtCoder Beginner Contest 284: A-F
+
+ICPC practice on Saturday
+
+Zealots problemset (just for funsies)
+
+Compilation command:
+cd $dir && g++ $fileName -o \"$workspaceRoot/.output/main\" --std=c++17 -O2 -Wall -Wextra -Wshadow -Wno-sign-compare -Wno-char-subscripts -fsanitize=address,undefined -fno-sanitize-recover -D_GLIBCXX_DEBUG -DLOCAL && \"$workspaceRoot/.output/main\"
